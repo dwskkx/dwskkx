@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @dwskkx
+- 👀 I’m interested in IT, building computers, music and sometimes gaming
+- 🌱 I’m currently learning C++, soon PHP and JavaScript
