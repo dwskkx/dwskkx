@@ -1,0 +1,91 @@
+function iksde()
+{
+    var punkty=0
+        if(document.getElementById('bb').checked)
+        {
+            punkty=punkty+4
+        }
+        if(document.getElementById('ab').checked)
+        {
+            punkty=punkty+4
+        }
+        if(document.getElementById('ce').checked)
+        {
+            punkty=punkty+4
+        }
+        if(document.getElementById('ad').checked)
+        {
+            punkty=punkty+4
+        }
+        if(document.form5.wstaw.value==" function nazwa_funkcji(argumenty) {instrukcje;}")
+        {
+            punkty=punkty+4
+        }
+        if(document.form6.wstaw.value=="a href")
+        {
+            punkty=punkty+4
+        }
+        if(document.form7.wstaw.value=="wykonywalne")
+        {
+            punkty=punkty+4
+        }
+        if(document.form8.wstaw.value=="5")
+        {
+            punkty=punkty+4
+        }
+        if(document.form9.odpowiedz.value=="odp_a")
+        {
+            punkty=punkty+4
+        }
+        if(document.form10.odpowiedz.value=="odp_ab")
+        {
+            punkty=punkty+4
+        }
+        if(document.form11.odpowiedz.value=="odp_bd")
+        {
+            punkty=punkty+4
+        }
+        if(document.form11.odpowiedz.value=="odp_ad")
+        {
+            punkty=punkty+4
+        }
+        if(document.getElementById('p1').checked)
+        {
+            punkty=punkty+4
+        }  
+        if(document.getElementById('p33').checked)
+        {
+            punkty=punkty+4
+        }  
+        if(document.getElementById('p12').checked))
+        {
+            punkty=punkty+4
+        }  
+        if(document.getElementById('p13').checked)
+        {
+            punkty=punkty+4
+        }  
+        document.write("Uzyskałeś punktów: "+punkty+" na 64 możliwych");
+        var ocena
+            if(punkty<32)
+            {
+                ocena="Niedostateczny"
+            }
+            if(32>punkty>40)
+            {
+                ocena="Dopuszczający"
+            }
+            if(40>punkty>48)
+            {
+                ocena="Dostateczny"
+            }
+            if(48>punkty>57)
+            {
+                ocena="Dobry"
+            }
+            if(57>punkty>64)
+            {
+                ocena="Bardzo dobry"
+            }
+            document.write(" Twoja ocena: "+ocena);
+    }
